@@ -46,6 +46,13 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
   - PostsReactions: dette er tabellen som inneholder alle reaksjoner med foreign key til innlegg, den har også en foreign key videre til hva de reagerte med
   - PostsReactionsIcons: dette er tabellen som inneholder alle mulige reaksjons ikoner, IsDefault feltet er der slik at det kan bestemme hvilke som kan brukes uten å åpne menyen
 
+### Grov skisse:
+  ![Grov skisse](images/init_sketch.png)
+  - bildet til topp venstre blir "registeret" hvor du kan se alle innlegg med ca de 50 første ordene, tenker denne skal bruke paging slik at den f.eks viser opp til 20 innlegg om gangen
+  - om du trykker på ett innlegg blir du sendt til "visningen" slik at det er større og du får hele innlegget og mulighet for å reagere
+  - om du da er "eier" av den posten får du "edit" og "delete" knapp opp. om du prøver å slette får du en confirmation på at du faktisk vil det. Om du trygger på rediger så får du opp redigerings bildet.
+  - i redigerings bildet er det en froala editor som støtter markdown slik at du kan skrive HTML og få gode formatterings muligheter. Her har du en lagre og slette knapp.
+
 ## Tidsskjema:
 
 <details>
@@ -139,9 +146,13 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
   
 
 ## Kostnader:
-- Timerate meg: 155,-
-  - Estimert total pris meg: 5 arbeidsdager * 7.5 timer * 155 = 5812.50,-
-- Lisens Omega 365: ?,-
+- Timerate lærling: 155,-
+  - Estimert total pris lærling: 5 arbeidsdager * 7.5 timer * 155 = 5812.50,-
+- Basic Omega 365 Instans per måned:
+  - Hosting: 8000,-
+  - Lisens: 25000,-
+  - Kost per bruker: 380,-
+- Estimert total pris: 38 812.50,- + 380 * antall brukere
 
 ## Kilder:
 - Tor Halvorsen Aasheim (faglig leder)
