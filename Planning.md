@@ -89,7 +89,7 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
     Torsdag <sub>06/02</sub>
   </summary>
   <ul>
-    <li>Lage objektene til datamodellen og eventuelle views og procedures - 7.25t</li>
+    <li>Lage tabeller til datamodellen, views og procedures - 7.25t</li>
     <li>Dokumentere og reflekter over eventuelle endringer fra planen - 0.25t</li>
   </ul>
 </details>
@@ -98,7 +98,7 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
     Fredag <sub>07/02</sub>
   </summary>
   <ul>
-    <li>Ferdigstill objektene til datamodellen - 7t</li>
+    <li>Ferdigstill objektene til datamodellen og begynn app utvikling - 7t</li>
     <li>Dokumentere og reflekter over eventuelle endringer fra planen - 0.5t</li>
   </ul>
 </details>
@@ -107,7 +107,7 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
     Lørdag <sub>08/02</sub>
   </summary>
   <ul>
-    <li>Start app utvikling - 7t</li>
+    <li>Fortsett app utvikling - 7t</li>
     <li>Dokumentere og reflekter over eventuelle endringer fra planen - 0.5t</li>
   </ul>
 </details>
@@ -116,7 +116,7 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
     Søndag <sub>09/02</sub>
   </summary>
   <ul>
-    <li>Fortsette implementasjon av app og vurder eventuelle ekstrafunksjonalitet - 7t</li>
+    <li>Fortsette implementasjon av app og vurder eventuell ekstrafunksjonalitet - 7t</li>
     <li>Dokumentere og reflekter over eventuelle endringer fra planen - 0.5t</li>
   </ul>
 </details>
