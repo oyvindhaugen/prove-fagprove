@@ -21,6 +21,8 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
 ## Sjekkliste ekstrafunksjonalitet:
 - Kommentarfelt
 - Custom Emojis utenom de jeg definerer
+- Kategori/topic system som kan filtreres på
+- Arkivering
   
 ## Fremgangsmåte:
 1. Jeg skal begynne ved å planlegge datamodellen, layout på app, og hvordan sikkerheten skal virke
@@ -36,7 +38,13 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
 10. Gå gjennom hvordan jeg presentere det og holde presentasjon for andre lærlinger for gjennomgang
 
 ## Skisse:
-
+### Data model:
+  ![Data Model](images/init_datamodel.png)
+  - Universal Column: dette er standard kolonner som er i alle tabeller i Omega365 CTP, disse kan antas er i alle tabellene, og er nevnt om de har en spesiell bruk
+  - stbl_System_Persons: system tabell som kommer med Omega365 CTP og inneholder alle brukere i systemet, skal brukes til å holde styr på hvem som har laget poster, reagert på poster etc.
+  - Posts: dette er tabellen hvor teksten i blogginnlegget lagres i HTML format slik at det støtter markdown, sammen med tittel på innlegget. Created og CreatedBy_ID brukes til å holde styr på når innlegget ble laget og hvem som laget det.
+  - PostsReactions: dette er tabellen som inneholder alle reaksjoner med foreign key til innlegg, den har også en foreign key videre til hva de reagerte med
+  - PostsReactionsIcons: dette er tabellen som inneholder alle mulige reaksjons ikoner, IsDefault feltet er der slik at det kan bestemme hvilke som kan brukes uten å åpne menyen
 
 ## Tidsskjema:
 
