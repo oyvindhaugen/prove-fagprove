@@ -27,15 +27,32 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
 ## Fremgangsmåte:
 1. Jeg skal begynne ved å planlegge datamodellen, layout på app, og hvordan sikkerheten skal virke
 2. Lage SQL Objekter
-   - div sikkerhet og planer for det
+   - Tabeller og trigger
+     - Posts (insert, update, og delete)
+       - ITrig: standard sjekk på tilgagner
+       - UTrig: standard sjekk på tilganger og sjekk om du er personen som laget posten
+       - DTrig: standard sjekk på tilganger og sjekk om du er personen som laget posten
+     - PostsReactions (insert og delete)
+       - ITrig: standard sjekk på tilganger og sjekk om du har reagert på posten fra før
+       - UTrig: standard sjekk på tilganger
+       - DTrig: standard sjekk på tilganger og sjekk om du har reagert på posten
+     - PostsReactionsIcons (readonly)
+   - Views
+     - aviw_Posts for å joine frem til Created By Name og sjekk om du er eier
+     - aviw_PostsReactions for å joine frem hvem som reagerte og hvilket icon de har reagert med, gruppert på Post og Icon
+   - Procedures
+     - astp_CreateOrUpdatePost
+     - astp_DeletePost
+     - astp_AddOrRemoveReaction 
 3. Lage app visuelt etter layout plan
 4. Legge til planlagt kjernefunksjonalitet i appen, som f.eks. mulighet til å legge inn nytt innlegg, redigere o.l.
 5. Finpusse og teste at all kjernefunksjonalitet fungerer som forventet
+   - test scripting i HTMLContent
 6. Vurdere ekstra funksjonalitet og om jeg har tid til å implementere det
 7. Kjøre testing av appen og lage rapport på det
-8. Skrive system dokumentasjon med "handover" info for evnt neste utvikler
-9. Skrive bruker dokumentasjon om hvordan appen fungerer
-10. Gå gjennom hvordan jeg presentere det og holde presentasjon for andre lærlinger for gjennomgang
+9. Skrive system dokumentasjon med "handover" info for evnt neste utvikler
+10. Skrive bruker dokumentasjon om hvordan appen fungerer
+11. Gå gjennom hvordan jeg presentere det og holde presentasjon for andre lærlinger for gjennomgang
 
 ## Skisse:
 ### Data model:
@@ -44,10 +61,10 @@ Målet med denne oppgaven er å utvikle en enkel applikasjon hvor brukere kan en
   - stbl_System_Persons: system tabell som kommer med Omega365 CTP og inneholder alle brukere i systemet, skal brukes til å holde styr på hvem som har laget poster, reagert på poster etc.
   - Posts: dette er tabellen hvor teksten i blogginnlegget lagres i HTML format slik at det støtter markdown, sammen med tittel på innlegget. Created og CreatedBy_ID brukes til å holde styr på når innlegget ble laget og hvem som laget det.
   - PostsReactions: dette er tabellen som inneholder alle reaksjoner med foreign key til innlegg, den har også en foreign key videre til hva de reagerte med
-  - PostsReactionsIcons: dette er tabellen som inneholder alle mulige reaksjons ikoner, IsDefault feltet er der slik at det kan bestemme hvilke som kan brukes uten å åpne menyen
+  - PostsReactionsIcons: dette er tabellen som inneholder alle mulige reaksjons iconer, IsDefault feltet er der slik at det kan bestemme hvilke som kan brukes uten å åpne menyen
 
 ### Grov skisse:
-  ![Grov skisse](images/init_sketch.png)
+  ![Grov skisse](images/sketch_v2.png)
   - bildet til topp venstre blir "registeret" hvor du kan se alle innlegg med ca de 50 første ordene, tenker denne skal bruke paging slik at den f.eks viser opp til 20 innlegg om gangen
   - om du trykker på ett innlegg blir du sendt til "visningen" slik at det er større og du får hele innlegget og mulighet for å reagere
   - om du da er "eier" av den posten får du "edit" og "delete" knapp opp. om du prøver å slette får du en confirmation på at du faktisk vil det. Om du trygger på rediger så får du opp redigerings bildet.
