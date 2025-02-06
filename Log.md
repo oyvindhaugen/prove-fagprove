@@ -25,7 +25,7 @@
     </li>
   </ul>
   <p>I dag har jeg også skrevet SQL Templates som er "maler" for de forskjellige views og triggers. Har skrevet dem siden om løsningen skal utvides i fremtiden sparer dette mye arbeid for utvikler.</p>
-  ![SQL Template eksempel](images/logs/sqltemplate.png)
+  <img src="images/logs/sqltemplate.png" alt="SQL template eksempel" width="500"/>
   <br/>
   <p>I dag har jeg også startet utvikling på appen, og har laget de starten av de tre bildene. Det er et lite avvik fra planen her som er at jeg velger å bruke noe som heter vue-router for å ha en "single page application", slik at det ikke blir loading mellom de forskjellige bildene.</p>
   <br/>
