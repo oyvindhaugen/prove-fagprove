@@ -31,3 +31,9 @@
   <br/>
   <p>Utenom de tre avvikene (templates, vue-router, og TextContent) så har jeg følgt planen som jeg la.</p>
 </details>
+<details>
+  <summary>
+    Fredag <sub>07/02</sub>
+  </summary>
+  I dag har jeg kommet en god del på frontend delen, har lagt til støtte for editering, sletting, og lagring av poster. For editering har jeg implementert FroalaEditor som er en HTML markup editor som er tilgjengelig via Omega365 CTP. Har også skikkelig implemenert vue-router nå slik at hele appen er en sømløs erfaring uten merkbar lasting. Har også lagt til knappene for emoji, men har ikke implementert skikkelig. Nytt view i dag: aviw_OyvindHaugen_Posts. dette inneholder posts og en subselect json av alle reaksjonene. I dag fikk jeg også en endring, som var å legge til kategorisering med Tags. Det var allerede i tankene som en ekstra feature, men nå skal det implementeres som del av kjernefunksjonaliteten. Dette har jeg ikke begynt på, tenker å bli ferdig med reactions først, men jeg har litt ideer hvordan jeg skal implementere det. Tror faktisk ikke jeg har noen avvik i dag overraskende nok. 😆 
+</details>
