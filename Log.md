@@ -37,3 +37,9 @@
   </summary>
   I dag har jeg kommet en god del på frontend delen, har lagt til støtte for editering, sletting, og lagring av poster. For editering har jeg implementert FroalaEditor som er en HTML markup editor som er tilgjengelig via Omega365 CTP. Har også skikkelig implemenert vue-router nå slik at hele appen er en sømløs erfaring uten merkbar lasting. Har også lagt til knappene for emoji, men har ikke implementert skikkelig. Nytt view i dag: aviw_OyvindHaugen_Posts. dette inneholder posts og en subselect json av alle reaksjonene. I dag fikk jeg også en endring, som var å legge til kategorisering med Tags. Det var allerede i tankene som en ekstra feature, men nå skal det implementeres som del av kjernefunksjonaliteten. Dette har jeg ikke begynt på, tenker å bli ferdig med reactions først, men jeg har litt ideer hvordan jeg skal implementere det. Tror faktisk ikke jeg har noen avvik i dag overraskende nok. 😆 
 </details>
+<details>
+  <summary>
+    Lørdag <sub>08/02</sub>
+  </summary>
+  I dag har jeg ferdig implementert reactions, var litt problem med rerendring på load, men det ordnet seg med å sette rett "key" på elementet. Implementering av "default" reaksjoner har jo gjort at jeg har måttet endret litt på viewet som hadde en JSON subquery, her har jeg heller måtte LEFT OUTER JOINet og heller filtrert vekk duplicatene slik at jeg får med default reaksjoner selv om de ikke har vært brukt. Etter jeg ble ferdig med det har jeg planlagt endringen av datamodellen for å støtte det jeg velger å kalle "Tags" som egentlig bare er kategorisering per post. F.eks en post om programmering kan ha tags som "Programming" og "Computer Science" etc.
+</details>
