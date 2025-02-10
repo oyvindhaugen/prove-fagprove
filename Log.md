@@ -44,3 +44,10 @@
   I dag har jeg ferdig implementert reactions, var litt problem med rerendring på load, men det ordnet seg med å sette rett "key" på elementet. Implementering av "default" reaksjoner har jo gjort at jeg har måttet endret litt på viewet som hadde en JSON subquery, her har jeg heller måtte LEFT OUTER JOINet og heller filtrert vekk duplicatene slik at jeg får med default reaksjoner selv om de ikke har vært brukt. Etter jeg ble ferdig med det har jeg planlagt endringen av datamodellen for å støtte det jeg velger å kalle "Tags" som egentlig bare er kategorisering per post. F.eks en post om programmering kan ha tags som "Programming" og "Computer Science" etc.
   <img src="images/logs/datamodel_v2.png" alt="Ny datamodel for støtte av topics" width="500"/>
 </details>
+<details>
+  <summary>
+    Mandag <sub>09/02</sub>
+  </summary>
+  <p>I dag har jeg ferdigstillt all kjernefunksjonalitet, og løst opp i mange bugs. I aviw_Posts har jeg lagt til ett felt som heter TopicsNames for å lett vise hvilke topics en Post hører til. I dag har jeg også skrevet første utkast av både bruker og system dokumentasjon, siden deadline for den er i morgen. I dag har jeg tatt et valg som tells som et avvik fra planen, som er at jeg ikke skal bruke farger på Topics. Dette var rett og slett bare på grunn av at det ikke er tid til å implementere dette på en god måte med tiden jeg har igjen, så dette har jeg valgt å sløyfe. Men hele veien de par siste dagene har jeg holdt styr ved å bruke en sjekkliste på tavle, og syns dette har hjulpet veldig ved å holde styr på ideer og hva jeg har gjenstående. </p>
+  <img src="images/logs/whiteboard_checklist.jpg" alt="Tavle sjekkliste" width="50%"/>
+</details>
