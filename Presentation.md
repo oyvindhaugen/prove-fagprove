@@ -18,3 +18,5 @@ Bare til å spør i vei om du har spørsmål 😎
 - Farge på topics
 - Søkefelt
 - Taginput for Topics
+- Algoritme for å anbefale "Other Posts"
+- Mulighet til å filtrere på hvem som skrev innlegget
