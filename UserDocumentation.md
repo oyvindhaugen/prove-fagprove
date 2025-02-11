@@ -22,6 +22,16 @@
 </details>
 <details open>
   <summary>
+    Hvordan lese en post?
+  </summary>
+  <p>I hvert av innleggene så viser det en "preview" av innholdet, men hvis du vil se hele innholdet må du trykke på "Read More"</p>
+  <img src="https://github.com/user-attachments/assets/21c24b62-673d-424f-a095-4fa1988c95c3" alt="read more knapp" />
+  <p>Her kan du lese i detaljer det som står i innlegget med skikkelig formattering i forhold til hvordan forfatteren skrev det.</p>
+  <p>Om du er forfatter får du også opp editering og slette knapp, som fungerer likt som i registeret.</p>
+  <p>På venstre siden får du opp andre innlegg som du kan lese.</p>
+  
+<details open>
+  <summary>
     Hvordan reagere til en post?
   </summary>
   <p>Du kan reagere på en post med å trykke på en av emojiene som ligger under innholdet i posten, og dette kan du gjøre enten fra registeret, eller når du er inne på en post. Det er noen standard emoji som ligger der, men om du vil se hele utvalget trykker du på ➕ symbolet.</p>
