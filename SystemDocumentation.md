@@ -123,6 +123,8 @@
     <li>Et admin skjermbilde der en admin kan administrere poster</li>
     <li>Farger på Topics og rendering som Badges</li>
     <li>Taginput for Topics</li>
+    <li>Algoritme for å anbefale "Other Posts" basert på Topic</li>
+    <li>Mulighet til å filtrere basert på forfatter av et innlegg</li>
   </ul>
 </details>
 <details>
