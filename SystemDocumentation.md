@@ -86,7 +86,7 @@
 </details>
 <details>
   <summary>
-    Frontend ting
+    Frontend
   </summary>
   <p>Noe som skiller denne appen litt fra andre apper er at den bruker noe som heter "vue-router", dette gjør at det skal kjøres som en "single page application (SPA)". Siden hele appen kjører som en SPA, er det nesten null i lastetid, og appen føles veldig sømløs. Det er satt opp noen fallback mekanismer som 404 Not Found side, og redirigering om du prøver å gå til "/", så leder den deg til "/register". Ulempen med "vue-router" er jo at det er vanskligere å feilsøke når du har feil å router nivå, men fordelene utveier ulempene.</p>
   <p>Denne appen består av 3 primær komponenter, som er: Register, View, og Edit. Som navnene beskriver så er det for å se en oversikt over alle innlegg (med filtermuligheter), se hele innlegg på en større skjerm (med anbefalinger for andre innlegg på siden), og redigering av innlegg.</p>
