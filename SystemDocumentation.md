@@ -37,7 +37,7 @@
     
   <details>
     <summary>
-      Tables
+      Tabeller
     </summary>
     <ul>
       <li>Posts - hvor innholdet til poster er lagret sammen med metadata som hvem som laget posten, dato, og tittel.</li>
