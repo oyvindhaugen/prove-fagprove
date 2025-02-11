@@ -46,8 +46,14 @@
 </details>
 <details>
   <summary>
-    Mandag <sub>09/02</sub>
+    Mandag <sub>10/02</sub>
   </summary>
   <p>I dag har jeg ferdigstillt all kjernefunksjonalitet, og løst opp i mange bugs. I aviw_Posts har jeg lagt til ett felt som heter TopicsNames for å lett vise hvilke topics en Post hører til. I dag har jeg også skrevet første utkast av både bruker og system dokumentasjon, siden deadline for den er i morgen. I dag har jeg tatt et valg som tells som et avvik fra planen, som er at jeg ikke skal bruke farger på Topics. Dette var rett og slett bare på grunn av at det ikke er tid til å implementere dette på en god måte med tiden jeg har igjen, så dette har jeg valgt å sløyfe. Men hele veien de par siste dagene har jeg holdt styr ved å bruke en sjekkliste på tavle, og syns dette har hjulpet veldig ved å holde styr på ideer og hva jeg har gjenstående. </p>
   <img src="images/logs/whiteboard_checklist.jpg" alt="Tavle sjekkliste" width="50%"/>
+</details>
+<details>
+  <summary>
+    Tirsdag <sub>11/02</sub>
+  </summary>
+  <p>I dag har jeg jobbet med å ferdigstille dokumentasjonen for innlevering kl. 17.00. Jeg har også lagt til litt aria labels for skjermlesere, slik at det er lettere for folk med lese vansker å bruke. Har ryddet litt i SQL Objektene som å slette ubrukt view og gjort en liten syntax endring i en procedure. Hadde en test presentasjon for de andre lærlingene som gav innsikt i hva jeg manglet. Før det skrev jeg også test rapport, og alle testene ble bestått. Nå føler jeg meg egentlig ganske klar til fremvisning.</p>
 </details>
