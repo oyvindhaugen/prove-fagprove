@@ -43,6 +43,13 @@ Utføre grundig test av alle funksjonene i appen og beskrive hvordan de burde op
     <td>✅</td>
   </tr>
   <tr>
+    <td>Se en post i detalj</td>
+    <td>Det skal gi deg en egen visning for å se hele innlegget, med andre innlegg tilgjengelig på venstresiden.</td>
+    <td>Den viser det fint formattert, med andre innlegg tilgjengelige på siden.</td>
+    <td><img src="https://github.com/user-attachments/assets/7fbd6c0e-025d-4aa6-8f68-edbaa1908f57" alt="Detaljert visning av innlegg" /></td>
+    <td></td>
+    <td>✅</td>
+  <tr>
     <td>Gi likes/kudos/reaksjoner</td>
     <td>Når du trykker på et ikon skal det visuelt vise at du har brukt det</td>
     <td>Det viser visuelt at du har reagert med at mengden reaksjoner oppdaterer og bakgrunnen blir mørk for å indikere at du har </td>
