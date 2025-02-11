@@ -14,7 +14,7 @@
   <summary>
     Hvordan endre en av <strong>dine</strong> blogg posts?
   </summary>
-  <p>Fra registeret så kommer det opp et redigerings symbol og et slette symbol på dine poster. Dette betyr med andre ord at du kan redigere og/eller slette dem. INSERT PIC</p>
+  <p>Fra registeret så kommer det opp et redigerings symbol og et slette symbol på dine poster. Dette betyr med andre ord at du kan redigere og/eller slette dem.</p>
   <img src="/images/docs/edit_buttons.png" alt="Edit and delete post"/>
   <p>Om du klikker inn på redigerings knappen kommer du inn på en kjent side, nemlig den samme som du laget posten på. Det fungerer helt likt nå som det gjorde når du laget posten, bare endre det du vil, og trykk publish.</p>
   <p>Om du trykker på slette symbolet kommer det opp en godtjenning på at du virkelig vil slette det, og om du er enig i det, så trykker du "Delete".</p>
