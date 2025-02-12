@@ -6,6 +6,7 @@ Bare til å spør i vei om du har spørsmål 😎
 - Innlogging
 - Forklaring av tilganger
 - Vis all funksjonalitet i appen.
+  - universell utforming
 - Vis views, procedures, og triggere
 - Vis SQL Templates
 
